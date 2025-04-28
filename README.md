@@ -21,10 +21,18 @@ Este repositorio contiene mi recorrido de aprendizaje para convertirme en Full S
 - **Revisión de código** constante para aplicar mejoras.
 - **Documentación clara** de cada proyecto o módulo.
 
+## 🖥️ Tecnologías Usadas
+
+- HTML/CSS/JS
+
 ## 🚀 Estado actual
 
 - Preparación de entorno de trabajo inicial y estructura base.
 
 ---
+
+## Cómo Contribuir
+
+- Reportar issues o sugerencias en GitHub
 
 _Actualizado por Carlos Tapia._
