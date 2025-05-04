@@ -827,4 +827,7 @@ Ejemplo de error común:
 <p>Hola <strong>mundo!</p> <!-- Error: etiqueta <strong> no cerrada -->
 ```
 
+## Ejemplo práctico
+- [Ejemplo de pagina html completa](./index.html)
+
 _Actualizado por Carlos Tapia._
