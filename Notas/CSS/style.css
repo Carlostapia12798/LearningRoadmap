@@ -1,0 +1,119 @@
+* {
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    color: blue;
+}
+
+p,
+li {
+    color: green;
+}
+
+/* Selector de clase */
+.classy {
+    background-color: lightgreen;
+}
+
+/* Ejemplo de selector con varias clases */
+.card {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.destacado {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Selecciona solo cuando ambas clases están presentes */
+.card.destacado {
+    border-color: gold;
+}
+
+/* selector de id */
+#span-id {
+    font-size: 20px;
+    color: rebeccapurple;
+}
+
+/* selector de atributo */
+a[href] {
+    color: brown;
+}
+
+/* Selector de hermanos adyacentes */
+li.especial+li {
+    background-color: lightblue;
+}
+
+/* Selector general de hermanos */
+h1~p {
+    font-style: italic;
+}
+
+/* Selector de hijos */
+.contenedor>p {
+    text-decoration: underline;
+}
+
+/* Pseudo-selector del primer hijo */
+li:first-child {
+    font-weight: bold;
+}
+
+/* Pseudo-selector de hijo único */
+span:only-child {
+    border: 1px solid red;
+}
+
+/* Pseudo-selector del último hijo */
+ul li:last-child {
+    color: orange;
+}
+
+/* Pseudo-selector de enésimo hijo */
+li:nth-child(2) {
+    background-color: lightgray;
+}
+
+/* Primer selector de tipo */
+p:first-of-type {
+    border-left: 3px solid green;
+}
+
+/* Selector de tipo Nth */
+p:nth-of-type(2) {
+    background-color: #f0f0f0;
+}
+
+/* Selector vacío */
+.vacio:empty {
+    height: 20px;
+    background-color: #eee;
+}
+
+/* Pseudoclase de negación */
+li:not(.especial) {
+    font-style: normal;
+}
+
+/* Selectores de atributos específicos */
+[type="text"] {
+    background-color: lightyellow;
+}
+
+[type^="pass"] {
+    border: 1px dashed gray;
+}
+
+[href$=".com"] {
+    font-weight: bold;
+}
+
+[href*="promo"] {
+    color: purple;
+    text-decoration: none;
+}
