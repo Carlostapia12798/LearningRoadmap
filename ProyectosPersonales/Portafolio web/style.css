@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* aca tengo estilos generales */
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/* estilos del header*/
+header{
+    background: #222222;
+    padding: 10px 30px;
+}
+
+#logo {
+    width: 150px;
+}
+
+#logo img{
+    border-radius: 100%;
+    border: 2px solid white;
+    width: 90px;
+    height: 80px;
+}
+
+/* estilos del hero*/
+
+#hero {
+    position: relative;
+}
+
+#hero #computadora {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .informacion-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    padding: 0 50px;
+}
+
+#hero .informacion-container #foto {
+    width: 200px;
+
+}
+
+#hero .informacion-container #foto img {
+    border-radius: 100%;
+}
+
+#hero .informacion-container .informacion{
+    margin-left: 20px;
+    font-weight: bold;
+    width: calc(100% - 200px);
+}
+
+#hero .informacion-container .informacion p {
+    margin-top: 40px;
+}
+
+/*estilos de main*/
+
+main {
+    padding: 100px ;
+}
+
+
+main .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+
+main .social-icons li {
+    margin-left: 10px;
+}
+
+main .social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+/* Fondo específico para cada red */
+#github {
+    background: #24292e; 
+}
+
+#linkedin {
+    background: #0077b5; 
+}
+
+main .social-icons a:hover {
+    filter: brightness(1.2);
+}
+
